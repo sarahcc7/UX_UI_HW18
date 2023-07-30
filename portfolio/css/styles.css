@@ -51,7 +51,7 @@
 
 .skills-section-wrapper {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: center;
   gap: 96px;
   margin: 30px;
@@ -76,6 +76,7 @@
   justify-content: center;
   gap: 48px;
   margin-bottom: 96px;
+  padding: 0 24px;
 }
 
 .tools-section-wrapper img {
@@ -194,4 +195,26 @@ html, body {
 
 * {
   font-family: 'Ubuntu', sans-serif;
+}
+
+/* HW 18 Edits*/
+
+@media only screen and (max-width: 900px) {
+.my-work-section-wrapper {
+  flex-flow: column nowrap; 
+}
+.tools-section-wrapper {
+  flex-flow: column no wrap;
+}
+.my-work-section-wrapper {
+  align-items: center;
+  padding: 64px;
+}
+.my-work-column-2 {
+  align-items: center;
+}
+.ps-stay-heading {
+  text-align: center;
+}
+
 }
