@@ -29,6 +29,8 @@
   justify-content: center;
   align-items: center;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -215,6 +217,10 @@ html, body {
 }
 .ps-stay-heading {
   text-align: center;
+}
+.contact-items-wrapper {
+  flex-flow: column nowrap;
+  gap: 56px;
 }
 
 }
